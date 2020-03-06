@@ -25,6 +25,10 @@ function isEven(value) {
 }
 ```
 
+### Big O Notation
+
+### Why?
+
 ## 3. Are you here?
 
 What is the Big O of the following algorithm? Explain your answer
