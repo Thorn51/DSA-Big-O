@@ -145,6 +145,8 @@ function efficientSearch(array, item) {
 }
 ```
 
+### Big O Notation, Why?
+
 ## 9. Random element
 
 What is the Big O of the following algorithm? Explain your answer
@@ -154,6 +156,8 @@ function findRandomElement(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
 }
 ```
+
+### Big O Notation, Why?
 
 ## 10. What Am I?
 
@@ -170,6 +174,8 @@ function isWhat(n) {
     return true;
 }
 ```
+
+**Big O Notation, Why?**
 
 ## 11. Tower of Hanoi
 
