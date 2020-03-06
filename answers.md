@@ -6,9 +6,13 @@
 
 **Big O Notation, Why?**
 
+- O(1) -> The time to complete this algorithm does not change based on the size of input. No matter if we are shouting at 15 people or 10,000 people (assuming a megaphone), the number of operations does not change.
+
 2. Determine the Big O for the following algorithm: You are sitting in a room with 15 people. You want to find a playmate for your dog who is of the same breed. So you want to know if anyone out of the 15 people have the same breed as your dog. You start with the first person and ask him if he has a golden retriever. He says no, then you ask the next person, and the next, and the next until you find someone who has a golden or there is no one else to ask.
 
 **Big O Notation, Why?**
+
+- O(n) -> The time to complete this algorithm increases in a linear fashion as we increase the number of inputs. We need to perform an operation on every input.
 
 ## 2. Even or odd
 
@@ -26,6 +30,8 @@ function isEven(value) {
 ```
 
 ### Big O Notation, Why?
+
+O(1) -> Arithmetic operations are constant time. No matter the size of the input there is only one operation performed on the input.
 
 ## 3. Are you here?
 
@@ -46,6 +52,8 @@ function areYouHere(arr1, arr2) {
 
 ### Big O Notation, Why?
 
+O(n^2) -> The outer for loop is O(n), and the inner for loop is O(n). Together they create a notation of O(n^2). As inputs increase the time complexity is polynomial.
+
 ## 4. Doubler
 
 What is the Big O of the following algorithm? Explain your answer
@@ -58,6 +66,8 @@ function doubleArrayValues(array) {
     return array;
 }
 ```
+
+O(n) -> Each item in the array is having one operation performed on it. This causes the amount of time to complete the operations to grow in a linear fashion over the number of values in the array.
 
 ### Big O Notation, Why?
 
@@ -175,7 +185,7 @@ function isWhat(n) {
 }
 ```
 
-**Big O Notation, Why?**
+### Big O Notation, Why?
 
 ## 11. Tower of Hanoi
 
