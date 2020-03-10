@@ -15,6 +15,14 @@ Introduction module on data structures and algorithms including:
 
 ## Big O Notation
 
+| Big-O Notation | n = 10 | n = 100 | n = 1000  |
+| -------------- | ------ | ------- | --------- |
+| O(1)           | 1      | 1       | 1         |
+| O(log n)       | 3      | 6       | 9         |
+| O(n)           | 10     | 100     | 1000      |
+| O(n^2)         | 100    | 10,000  | 1,000,000 |
+| O(2^n)         | 1024   | 2^100   | 2^1000    |
+
 ### Constant Time -> O(1)
 
 The algorithm takes the same amount of time to complete regardless of input size.
@@ -30,14 +38,6 @@ Run times are directly proportional to the size of the input.
 ### Polynomial Time -> O(n^k)
 
 ### Exponential Time -> O(2^n)
-
-| Big-O Notation | n = 10 | n = 100 | n = 1000  |
-| -------------- | ------ | ------- | --------- |
-| O(1)           | 1      | 1       | 1         |
-| O(log n)       | 3      | 6       | 9         |
-| O(n)           | 10     | 100     | 1000      |
-| O(n^2)         | 100    | 10,000  | 1,000,000 |
-| O(2^n)         | 1024   | 2^100   | 2^1000    |
 
 ### Exercises
 
