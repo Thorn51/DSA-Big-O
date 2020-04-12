@@ -18,18 +18,18 @@ The GitHub page has examples and drills from the Thinkful DSA module on Big-O.
 
 After opening the page, open the developer tools. The examples and drills have corresponding functions. Call those functions in the console to see the results.
 
-There is a note section under each to indicate which functions to call.
+There is a note call out under each example to indicate which functions to call.
 
 **Available Data**
 There are a number of values and arrays available to test various examples and drills.
 
-Values of Various Sizes
+_**Values of Various Sizes**_
 
 - Small Value -> `let smallValue = 2`
 - Large Value -> `let largeValue = 2000`
 - Extra Large Value -> `let extraLargeValue = 200000`
 
-Arrays of Various Sizes
+_**Arrays of Various Sizes**_
 
 - `arrayThree` -> Sorted array with values 1-3
 - `arrayTen` -> Sorted array with values 1-10
