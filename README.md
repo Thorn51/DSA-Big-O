@@ -23,13 +23,13 @@ There is a note call out under each example to indicate which functions to call.
 **Available Data**
 There are a number of values and arrays available to test various examples and drills.
 
-_**Values of Various Sizes**_
+_Values of Various Sizes_
 
 - Small Value -> `let smallValue = 2`
 - Large Value -> `let largeValue = 2000`
 - Extra Large Value -> `let extraLargeValue = 200000`
 
-_**Arrays of Various Sizes**_
+_Arrays of Various Sizes_
 
 - `arrayThree` -> Sorted array with values 1-3
 - `arrayTen` -> Sorted array with values 1-10
