@@ -26,7 +26,7 @@ Run times are directly proportional to the size of the input.
 
 ### Exponential Time -> O(2^n)
 
-### Drills
+## Drills
 
 The GitHub page has examples and drills from the Thinkful DSA module on Big-O.
 
