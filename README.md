@@ -20,16 +20,17 @@ After opening the page, open the developer tools. The examples and drills have c
 
 There is a note call out under each example to indicate which functions to call.
 
-**Available Data**
+### Available Data for Drills
+
 There are a number of values and arrays available to test various examples and drills.
 
-_Values of Various Sizes_
+#### Values of Various Sizes
 
 - Small Value -> `let smallValue = 2`
 - Large Value -> `let largeValue = 2000`
 - Extra Large Value -> `let extraLargeValue = 200000`
 
-_Arrays of Various Sizes_
+#### Arrays of Various Sizes\_
 
 - `arrayThree` -> Sorted array with values 1-3
 - `arrayTen` -> Sorted array with values 1-10
